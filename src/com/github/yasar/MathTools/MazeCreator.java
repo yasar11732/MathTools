@@ -8,7 +8,7 @@ import java.util.Stack;
 
 /**
  *
- * @author muhammed
+ * @author Yaşar Arabacı
  */
 public class MazeCreator {
 

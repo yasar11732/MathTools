@@ -5,11 +5,11 @@ import java.util.List;
 
 /**
  *
- * @author muhammed
+ * @author Yaşar Arabacı
  */
-public class NarcistNumberFinder {
+public class NarcissisticNumberFinder {
 
-    public static List<Integer> find(Integer start, Integer end) {
+    public static List<Integer> findNarcissisticNumbers(Integer start, Integer end) {
         List<Integer> narcists = new ArrayList();
         for (int current=start; current <= end; current++) {
             String num = (new Integer(current)).toString();
